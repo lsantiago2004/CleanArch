@@ -14,4 +14,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.2" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Reference Include="CleanArch.Infra.Data">
+      <HintPath>..\CleanArch.Infra.Data\bin\Debug\netcoreapp3.1\CleanArch.Infra.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
